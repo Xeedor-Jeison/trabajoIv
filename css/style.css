@@ -1,0 +1,238 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Jurassic Park', sans-serif;
+}
+/* header{
+	position: sticky;
+	top: 0.5px;
+	background-color: #A89337;
+} */
+.div-nav {
+	background-color: #a89337;
+}
+.navbar {
+	--bs-navbar-padding-y: 1px !important;
+}
+
+.nav-a {
+	font-size: 100px;
+	color: #000;
+}
+.nav-aconrds:hover {
+	background-color: #dcc410;
+}
+.nav-aconrds:focus {
+	background-color: #dcc410;
+}
+.dropdown-toggle::after {
+	vertical-align: 0 !important;
+}
+.fondo {
+	font-size: 60px;
+}
+.dropdown-menu {
+	--bs-dropdown-padding-y: 0px !important;
+}
+.dropdown-nav:hover {
+	background-color: #dcc410;
+}
+#desple {
+	width: 20%;
+	background-color: #fff;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 50px;
+	text-align: center;
+	z-index: 500;
+	visibility: hidden;
+	top: 90px;
+}
+#desple > ul > li {
+	color: #000;
+}
+#desple > ul {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.visibilidad {
+	visibility: visible !important;
+}
+.novisible {
+	visibility: hidden;
+}
+#div-img-principal {
+	height: 300px;
+	background-color: rgb(180, 173, 207);
+}
+#div-img-principal > img {
+	width: 800px;
+	z-index: 100;
+}
+.div-principal-text {
+	display: flex;
+	justify-content: flex-end;
+}
+.div-text {
+	font-size: 35px;
+	width: 50%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.subtitle {
+	font-size: 90px;
+	text-align: center;
+	padding: 15px;
+	padding-top: 25px;
+}
+
+#boletas,
+body {
+	background-color: #a89337;
+}
+
+#div-target {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+.target-a {
+	text-decoration: none;
+}
+.name-target {
+	color: #000;
+	background-color: red;
+	text-align: center;
+	padding: 15px;
+	font-size: 110px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.content-target {
+	background-color: #dcc410;
+	font-size: 80px;
+	color: #000;
+	text-align: center;
+}
+.content-target > ul {
+	list-style: none;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	margin-bottom: 0;
+}
+
+.content-target > ul > li {
+	padding: 10px;
+	color: #000;
+}
+.boton {
+	font-size: 70px;
+	border-radius: 20px;
+	background-color: red;
+	margin-bottom: 20px;
+}
+.boton:hover {
+	background-color: rebeccapurple;
+}
+.numero {
+	font-family: 'Jungle Juice', sans-serif;
+}
+
+.footer-target {
+	height: 74px;
+	background-color: red;
+	border-radius: 0px 0px 20px 20px;
+}
+
+/* //LINKS */
+
+#volver {
+	background-color: #f12;
+}
+#volver > a {
+	text-decoration: none;
+	color: #000;
+	font-size: 80px;
+}
+#main-links {
+	padding-left: 20px;
+}
+.tamaño {
+	width: 90px;
+	height: 80px;
+}
+.title {
+	font-size: 100px;
+}
+.equal {
+	font-size: 50px;
+	font-family: 'Jungle Juice', sans-serif !important;
+}
+
+/* //MODAL */
+#modal::backdrop{
+	background-color: rgba(0, 0, 0, .7);
+}
+
+#modal {
+	background-color: #dcc410;
+	border: red solid 20px;
+	border-radius: 30px;
+	max-width: 80ch;
+	top: 40px;
+	left: 350px;
+}
+
+.princi-modal {
+	padding: 25px;
+}
+.tamaño-modal{
+	width: 50%;
+}
+.title-modal {
+	font-size: 70px;
+	border: #fff solid 10px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.p-modal {
+	margin-top: 25px;
+	font-size: 50px;
+	font-family: 'Jungle Juice', sans-serif !important;
+}
+.column-modal {
+	padding: 20px;
+}
+.subtotal {
+	border: #fff solid 10px;
+	height: 200px;
+	padding: 25px;
+	margin: 10px;
+	margin-bottom: 50px;
+	font-size: 70px;
+	text-align: center;
+	border-radius: 25px;
+}
+.total {
+	border: #fff solid 10px;
+	height: 200px;
+	margin: 10px;
+	font-size: 70px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.pagar {
+	border: #fff solid 10px;
+	border-radius: 20px;
+	margin: 10px;
+	font-size: 70px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+
